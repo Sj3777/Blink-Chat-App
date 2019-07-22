@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/back3"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:src="#fb6"
+        android:id="@+id/myImage"
+        />
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/myImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif"
+        android:text=" My Name"
+        android:textColor="#D81B60"
+        android:textSize="50sp"
+        android:textStyle="normal"
+        app:fontFamily="@font/bungee_shade" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/myName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96sp"
+        android:fontFamily="sans-serif"
+        android:text="Your Profile"
+        android:textColor="#FAA184"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/berkshire_swash" />
+
+
+</RelativeLayout>

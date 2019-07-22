@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "436629842352",
+    "firebase_url": "https://fir-loginapp-ab2af.firebaseio.com",
+    "project_id": "fir-loginapp-ab2af",
+    "storage_bucket": "fir-loginapp-ab2af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436629842352:android:30d6eab550e75d77",
+        "android_client_info": {
+          "package_name": "com.example.chatzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436629842352-k4se1obs8i264li7jfihh3surpi7tkjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatzone",
+            "certificate_hash": "b88631c4fc5af89a84e865ed8372056f521fe802"
+          }
+        },
+        {
+          "client_id": "436629842352-2pfm5quuoh8dm84r4p07h9nscrog4cgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLoetHarm2LwD4GdcHl4wBzU6XWqORzf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436629842352-2pfm5quuoh8dm84r4p07h9nscrog4cgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
